@@ -5,7 +5,8 @@ Check if files show up as malicious in VirusTotal straight from the command line
 used on Windows, macOS, or Linux systems to determine if a file is malicious without having to launch the GUI.
 
 <h2>How to Use</h2>
-Launch the program from either the CLI or the GUI, enter the absolute path to the suspect file, and press enter.<br>
+You must edit the code to put your own personal <a href=https://developers.virustotal.com/v2.0/reference/getting-started>VirusTotal API key</a> in the API_KEY variable. Launch the<br>
+program from either the CLI or the GUI, enter the absolute path to the suspect file, and press enter.<br>
 If a response code of 0 is returned, then the file is not malicious according to VirusTotal. If a response code<br>
 of 1 is returned, then the file is malicious.
 
