@@ -7,7 +7,6 @@ from virus_total_apis import PublicApi as VirusTotalPublicApi
 
 # End of Script Module Importing
 
-
 # Script Constants
 
 API_KEY = ""
